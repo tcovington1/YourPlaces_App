@@ -7,11 +7,10 @@ import UsersList from '../components/UsersList';
 const Users = () => {
   const USERS = [
     {
-    key: 1,
+    id: 'u1',
     name: "Taylor Covington",
     image: 'https://www.pexels.com/photo/selective-focus-photo-of-smiling-man-looking-at-his-phone-while-holding-cup-3206080/',
     places: 3,
-
   }
 ];
   return (
