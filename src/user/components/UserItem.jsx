@@ -9,7 +9,7 @@ const UsersItem = (props) => {
   const {id, name, image, placeCount} = props
   return(
     <>
-    <li className='user-item'>
+    <li className='user-item center'>
         <Card  className="user-item__content" >
           <Link to={`/${id}/places`}>        
             <div className="user-item__item">
